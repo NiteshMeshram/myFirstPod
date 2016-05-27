@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface NitDemoViewController : UIViewController
-
+-(NSString *)hellWorld:(NSString*)userName;
 @end

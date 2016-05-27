@@ -25,5 +25,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(NSString *)hellWorld:(NSString*)userName{
+
+    return [NSString stringWithFormat:@"Hello %@",userName];
+}
 
 @end
