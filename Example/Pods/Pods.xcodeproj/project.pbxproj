@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A093C61CFDB1D300102767 /* MyPodViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A093C41CFDB1D300102767 /* MyPodViewController.h */; };
+		00A093C71CFDB1D300102767 /* MyPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A093C51CFDB1D300102767 /* MyPodViewController.m */; };
 		0B94DC2D3A9120988CDA8B243BFDBCC8 /* Pods-BlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6CE83A55F84C0E636E404E667407C /* Pods-BlinkingLabel_Tests-dummy.m */; };
-		24971E56A592839FBC3A22190BF7A38D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD70BEE2232EC55B84CE14BAB195997 /* ReplaceMe.m */; };
 		2999EE8CA9D2CF796A54372B324A7A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		33312C3EA3E8FB0504C9DCCC3999A971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		57DE060A4045851ED9753E06A39AAF12 /* BlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D7EEF25B342257CCCF79D4DD3C5B9F /* BlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A093C41CFDB1D300102767 /* MyPodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPodViewController.h; sourceTree = "<group>"; };
+		00A093C51CFDB1D300102767 /* MyPodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPodViewController.m; sourceTree = "<group>"; };
 		0B337EC42A40396CAD676CB02F2DBAE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F8EFAB91432C7B73E2C753E595A77D7 /* BlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		194D77800451C2B3DA84DB852714F85E /* Pods-BlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		D51F1C619646302B0F21794FC89E23B0 /* BlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		E1A6CE83A55F84C0E636E404E667407C /* Pods-BlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		FC0929639AF9F5F3AC5F515926618354 /* Pods-BlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		FCD70BEE2232EC55B84CE14BAB195997 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		FDB33B4B9FEB48B7A6C042B42E8822F4 /* Pods-BlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,8 @@
 		225FCF33B65044F4C74F221F3E1A3A2A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FCD70BEE2232EC55B84CE14BAB195997 /* ReplaceMe.m */,
+				00A093C41CFDB1D300102767 /* MyPodViewController.h */,
+				00A093C51CFDB1D300102767 /* MyPodViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57DE060A4045851ED9753E06A39AAF12 /* BlinkingLabel-umbrella.h in Headers */,
+				00A093C61CFDB1D300102767 /* MyPodViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A093C71CFDB1D300102767 /* MyPodViewController.m in Sources */,
 				ECACACF95E1BE3F2A06C35A0F365DDF9 /* BlinkingLabel-dummy.m in Sources */,
-				24971E56A592839FBC3A22190BF7A38D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
